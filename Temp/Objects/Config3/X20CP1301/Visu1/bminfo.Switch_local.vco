@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Switch_local" ClsId="0x306" Version="1" TargetIndex="89" Type="GFX" RefString="Source[local].Bitmap[Switch_local]">
+        <UInt16 Name="Width">70</UInt16>
+        <UInt16 Name="Height">25</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">zs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzqkPCan8YM7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OYA8PNc7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozg/8zs7OYA81zjUPDw8PD87OYA8PDzX8Dw8PDw8PNTU1zs7ONfzONTXOzs7OCQ8JCQ8Jzs5gDwnOzs7Ozs7Ozs7Ozs7Ozs4PD2DOzjUPNc41Nc7Ozs7ONfxgzqk1YM7ONTXOzs41Nc7OzjX8zjU1zs7OzgkPCQkPCc6p/A8Jzs7Ozs7Ozs7Ozs7Ozs7ODzU1zoUP/DXONTXOzs7OhQ9gzs7Ozs7OzjU1zs7ONTXOzs41/M41Nc7Ozs4JDwkJDwnOYDUPCc7Ozs7Ozs7Ozs7Ozs7Ozg9gD4VgNTU1zjU1zs7OzmAPqc7Ozs7Ozs41Nc7OzjU1zs7ONfzONTXOzs7OCQ8JCQ8JqfwJDwnOzs7Ozs7Ozs7Ozs7Ozs4PCTU1/Ak1Nc41Dw8PDzVgD87Ozs7Ozs7ONTXOzs41Dw8PDw/8zjUPDw/8YAkPCQkPCWA1hQ8Jzs7Ozs7Ozs7Ozs7Ozs7ODwlgD/zONTXONTXOzs7OYA+pzs7Ozs7OzjU1zs7ONTXOzs41/M41Nc7ONQ9gDwkJD2D8qYUPCc7Ozs7Ozs7Ozs7Ozs7Ozg8JzvxgzjU1zjU1zs7OzoUPYM7Ozs7Ozs41Nc7OzjU1zs7ONfzONTXOzgkPYA8JCQ/8YM6FDwnOzs7Ozs7Ozs7Ozs7Ozs4PCc7Ozs41Nc41Nc7Ozs7ONfwJzqk1YM7ONTXOzs41Nc7OzjX8zjU1zs41/GAPCQkP/KnOhQ8Jzs7Ozs7Ozs7Ozs7Ozs7ODwnOzs7ONTXONQ8PDw8Pzs5fDw8PNQnOzjU1zs7ONTXOzs41/M41Dw8P+wkJDwkJD2DOzoUPCc7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozg==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

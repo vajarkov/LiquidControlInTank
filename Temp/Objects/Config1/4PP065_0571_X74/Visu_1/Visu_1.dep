@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Visualisation/Visu_1/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/become/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/become/become.fun
+$(AS_PROJECT_PATH)/Logical/Global.typ

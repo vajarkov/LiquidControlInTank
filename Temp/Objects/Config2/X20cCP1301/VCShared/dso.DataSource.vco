@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">21</UInt32>
+          <UInt32 Name="ImageSize">58</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="Program1:level_limits.Hi">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="Program1:level_limits.Lo">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">4</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">25</Int32>
+            </Group>
+            <Group Name="Program1:mode_remote_manual">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">8</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">50</Int32>
+            </Group>
+            <Group Name="Program1:mode_remote_auto">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">9</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">78</Int32>
+            </Group>
+            <Group Name="Program1:block_manual">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">10</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">104</Int32>
+            </Group>
+            <Group Name="Program1:block_auto">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">126</Int32>
+            </Group>
+            <Group Name="Program1:cmd_valve_close">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">12</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">146</Int32>
+            </Group>
+            <Group Name="Program1:cmd_valve_open">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">13</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">171</Int32>
+            </Group>
+            <Group Name="Program1:timer_for_pump">
+              <UInt16 Name="ID">8</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">14</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">195</Int32>
+            </Group>
+            <Group Name="Program1:cmd_valve_stop">
+              <UInt16 Name="ID">9</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">15</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">219</Int32>
+            </Group>
+            <Group Name="Program1:cmd_pump_off">
+              <UInt16 Name="ID">10</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">16</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">243</Int32>
+            </Group>
+            <Group Name="Program1:cmd_pump_on">
+              <UInt16 Name="ID">11</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">17</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">265</Int32>
+            </Group>
+            <Group Name="Program1:alarm">
+              <UInt16 Name="ID">12</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">18</UInt32>
+              <UInt32 Name="PVDim">20</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">286</Int32>
+            </Group>
+            <Group Name="Visu_1:valve_status">
+              <UInt16 Name="ID">13</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">38</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">301</Int32>
+            </Group>
+            <Group Name="Visu_1:valve_visible">
+              <UInt16 Name="ID">14</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">39</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">321</Int32>
+            </Group>
+            <Group Name="Visu_1:pump_status">
+              <UInt16 Name="ID">15</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">40</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">342</Int32>
+            </Group>
+            <Group Name="Visu_1:pump_visible">
+              <UInt16 Name="ID">16</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">41</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">361</Int32>
+            </Group>
+            <Group Name="TANK.level.value">
+              <UInt16 Name="ID">17</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">42</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">381</Int32>
+            </Group>
+            <Group Name="TANK.level.sett.scale_h">
+              <UInt16 Name="ID">18</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">46</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">398</Int32>
+            </Group>
+            <Group Name="TANK.level.sett.scale_l">
+              <UInt16 Name="ID">19</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">50</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">422</Int32>
+            </Group>
+            <Group Name="TANK.level.sett.offset">
+              <UInt16 Name="ID">20</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">54</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">446</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">UHJvZ3JhbTE6bGV2ZWxfbGltaXRzLkhpAFByb2dyYW0xOmxldmVsX2xpbWl0cy5MbwBQcm9ncmFtMTptb2RlX3JlbW90ZV9tYW51YWwAUHJvZ3JhbTE6bW9kZV9yZW1vdGVfYXV0bwBQcm9ncmFtMTpibG9ja19tYW51YWwAUHJvZ3JhbTE6YmxvY2tfYXV0bwBQcm9ncmFtMTpjbWRfdmFsdmVfY2xvc2UAUHJvZ3JhbTE6Y21kX3ZhbHZlX29wZW4AUHJvZ3JhbTE6dGltZXJfZm9yX3B1bXAAUHJvZ3JhbTE6Y21kX3ZhbHZlX3N0b3AAUHJvZ3JhbTE6Y21kX3B1bXBfb2ZmAFByb2dyYW0xOmNtZF9wdW1wX29uAFByb2dyYW0xOmFsYXJtAFZpc3VfMTp2YWx2ZV9zdGF0dXMAVmlzdV8xOnZhbHZlX3Zpc2libGUAVmlzdV8xOnB1bXBfc3RhdHVzAFZpc3VfMTpwdW1wX3Zpc2libGUAVEFOSy5sZXZlbC52YWx1ZQBUQU5LLmxldmVsLnNldHQuc2NhbGVfaABUQU5LLmxldmVsLnNldHQuc2NhbGVfbABUQU5LLmxldmVsLnNldHQub2Zmc2V0AA==</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

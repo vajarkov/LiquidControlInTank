@@ -1,0 +1,92 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Slave 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=20 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                   alarm                              BOOL[0..19]    0 "                                                               *"    0    1   20    0    0    1         
+                                alarm[6]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[7]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[8]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[9]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               alarm[10]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               alarm[11]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               alarm[12]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               alarm[13]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                     MB0                              BOOL[0..30]    0 "                                                               *"    0    1   31    0    0    0         
+                                  MB0[6]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  MB0[7]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  MB0[8]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                  MB0[9]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 MB0[10]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 MB0[11]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 MB0[12]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 MB0[13]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 MB0[21]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                 MB0[28]                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
+                                   Slave                                  MBSlave    0 "                                                               *"    0   24    1    0    1    1         
+                                  enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                        37478120"    1    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                           20220"    1    6    1   10    0    0         
+                                    exec                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                   SOpen                                  MBSOpen    0 "                                                               *"    0   24    1    0    1    1         
+                                  enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                 pDevice                                    UDINT    0 "                                                        57159808"    1    7    1   10    0    0         
+                                   pMode                                    UDINT    0 "                                                        57159872"    1    7    1   10    0    0         
+                               pCoilStat                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                              pInputStat                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                             pHoldingReg                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                               pInputReg                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                  own_ID                                    USINT    0 "                                                               1"    1    5    1   10    0    0         
+                                 timeout                                     UINT    0 "                                                             500"    1    6    1   10    0    0         
+                                  status                                     UINT    0 "                                                               0"    1    6    1   10    0    0         
+                                   ident                                    UDINT    0 "                                                        37478120"    1    7    1   10    0    0         
+                               FirstInit                                    UDINT    0 "                                                        57159780"    1    7    1   10    0    0         
+                               InitCount                                    USINT    0 "                                                              74"    1    5    1   10    0    0         
+                                    TANK                                 Tank_typ    0 "                                                               *"    0   24    1    0    0    0         
+                                   level                                Analog_FB    0 "                                                               *"    1   24    1    0    0    0         
+                                     raw                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                         ai_input_status                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          ai_channel_num                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                                  adc_up                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                  adc_dn                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                   value                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    sett                     Analog_Settings_type    0 "                                                               *"    2   24    1    0    0    0         
+                                 scale_h                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 scale_l                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  offset                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  limits                        Analog_Limits_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                    HiHi                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                      Hi                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                      Lo                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    LoLo                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                     hys                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  alarms                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,SIGN
+
+                      mode_remote_manual                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                   VALVE                                Valve_typ    0 "                                                               *"    0   24    1    0    0    0         
+                           status_remote                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                            status_local                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                             button_open                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                            button_close                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                             button_stop                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                     signal_valve_opened                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                     signal_valve_closed                                     BOOL    3 "                                                            TRUE"    1    1    1    2    0    0         
+                          cmd_valve_open                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                         cmd_valve_close                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                                feedback                                Analog_FB    0 "                                                               *"    1   24    1    0    0    0         
+                                     raw                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                         ai_input_status                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          ai_channel_num                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                                  adc_up                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                  adc_dn                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                   value                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                                    sett                     Analog_Settings_type    0 "                                                               *"    2   24    1    0    0    0         
+                                 scale_h                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                 scale_l                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  offset                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  limits                        Analog_Limits_typ    0 "                                                               *"    2   24    1    0    0    0         
+                                    HiHi                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                      Hi                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                      Lo                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                    LoLo                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                     hys                                     REAL    0 "                                                               *"    3    8    1   10    0    0         
+                                  alarms                                     DINT    0 "                                                               *"    2    4    1   10    0    0 e,0,SIGN
+

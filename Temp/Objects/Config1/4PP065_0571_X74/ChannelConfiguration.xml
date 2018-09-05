@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO">
+  <Module ID="$root" Hardware="4PP065.0571-X74" HardwareModuleName="4PP065_0571_X74" ModuleID="1">
+    <Channel ID="SerialNumber" Description="Serial number" Ext="/HW" Address="0" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="SerialNumber" />
+    <Channel ID="ModuleID" Description="Module ID" Ext="/HW" Address="1" Direction="IN" Type="UINT" ChannelType="GenericFuncCall" Function="mtcxGetDeviceId" Sig_St_Uint="1" />
+    <Channel ID="PowerOnCycles" Description="PowerOnCycles of PC" Ext="/HW" Address="2" Direction="IN" Type="UDINT" ChannelType="GenericFuncCall" Function="mtcxGetPowerOnCycles" />
+    <Channel ID="OperatingHoursPP" Description="Operating hours of PP [h]" Ext="/HW" Address="3" Direction="IN" Type="UDINT" ChannelType="GenericFuncCall" Function="mtcxGetOperatingHoursPC" CyclicUpdate="1" />
+    <Channel ID="BatteryStatusCPU" Description="Battery status CPU (0 = battery low or missing, 1 = battery ok)" Ext="/HW" Address="4" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Battery" BatteryDetectionMethod="1" Ordinal="2" />
+    <Channel ID="TemperatureCPU" Description="Temperature CPU [1/10C]" Ext="/HW" Address="5" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="1" />
+    <Channel ID="TemperatureENV" Description="Temperature cooling plate [1/10C]" Ext="/HW" Address="6" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="2" />
+    <Channel ID="SystemTime" Description="System time at the start of the current task cycle [µs]" Ext="/HW" Address="7" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime" />
+    <Channel ID="IF4.CycleCount" Description="Number of bus cycles" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.BreakCount" Description="Number of bus cycles with set break signal" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.Nettime" Description="Timestamp when the current input frame was started  [µs]" FromVersion="I2.90" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.SyncErrorCount" Description="Number of failed synchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.SyncSramErrorCount" Description="Number of memory access errors within synchronous frame (overflow/underrun)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.SyncBusyErrorCount" Description="Number of not sent synchronous frames (sender not ready)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.SyncNoRxErrorCount" Description="Number of not received synchronous frames (timeout)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.SyncFormatErrorCount" Description="Number of faulty synchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.SyncPendingErrorCount" Description="Number of synchronous frames which could not be sent because of receiving a frame" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.AsyncErrorCount" Description="Number of failed asynchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.AsyncSramErrorCount" Description="Number of memory access errors within asynchronous frame (overflow/underrun)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.AsyncBusyErrorCount" Description="Number of not sent asynchronous frames (sender not ready)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.AsyncNoRxErrorCount" Description="Number of not received asynchronous frames (timeout)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.AsyncFormatErrorCount" Description="Number of faulty asynchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.AsyncPendingErrorCount" Description="Number of asynchronous frames which could not be sent because of receiving a frame" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.DMALateOutputErrorCount" Description="Number of cycles when DMA for cyclic outputs was too late" FromVersion="G2.93" Ext="/INFO" Direction="IN" Type="DINT" />
+    <Channel ID="IF4.NrOfStationsMax" Description="Number of max. stations" FromVersion="A3.08" Ext="/INFO" Address="0x80000113" Direction="IN" Type="USINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.NrOfStationsConfigured" Description="Number of configured stations" FromVersion="A3.08" Ext="/INFO" Address="0x80000114" Direction="IN" Type="USINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.StationAtBusEnd" Description="Station at end of bus" FromVersion="A3.08" Ext="/INFO" Address="0x80000115" Direction="IN" Type="USINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.StationAtBusEndChangeTime" Description="Time of last change at station on end of bus" FromVersion="A3.08" Ext="/INFO" Address="0xC0000115" Direction="IN" Type="DATE_AND_TIME" Diagnose="/DIAG" />
+    <Channel ID="IF4.StationPastOutFrameError" Description="First station which recognizes output frame error" FromVersion="A3.08" Ext="/INFO" Address="0x80000116" Direction="IN" Type="USINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.StationPastOutFrameErrorChangeTime" Description="Time of last change of channel StationPastOutFrameError" FromVersion="A3.08" Ext="/INFO" Address="0xC0000116" Direction="IN" Type="DATE_AND_TIME" Diagnose="/DIAG" />
+    <Channel ID="IF4.StationPastInFrameError" Description="First station which recognizes input frame error" FromVersion="A3.08" Ext="/INFO" Address="0x80000117" Direction="IN" Type="USINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.StationPastInFrameErrorChangeTime" Description="Time of last change of channel StationPastInFrameError" FromVersion="A3.08" Ext="/INFO" Address="0xC0000117" Direction="IN" Type="DATE_AND_TIME" Diagnose="/DIAG" />
+    <Channel ID="IF4.SyncInFrameSize" Description="Size of synchronous input frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x80000118" Direction="IN" Type="DINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.SyncOutFrameSize" Description="Size of synchronous output frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x80000119" Direction="IN" Type="DINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.AsyncFrameSize" Description="Size of asynchronous frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011A" Direction="IN" Type="DINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.AsyncFrameSpareSize" Description="Size reserve within asynchronous frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011B" Direction="IN" Type="DINT" Diagnose="/DIAG" />
+    <Channel ID="IF4.BusLengthConfigured" Description="Configured bus length [m]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011C" Direction="IN" Type="DINT" Diagnose="/DIAG" />
+    <Channel ID="IF5.NodeSwitch" Description="Node switch" Ext="/HW" Address="8" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Node" Device="PCI.IF5" />
+  </Module>
+  <Module ID="SS1" Hardware="4PP065.IF23-1" HardwareModuleName="4PP065_IF23-1" ModuleID="7">
+    <Channel ID="IF2.TerminatingResistor" Description="Abschlusswiderstand" FromVersion="A4.32" Ext="/HW" Address="1" Direction="IN" Type="BOOL" ChannelType="Statistic" />
+    <Channel ID="IF3.NodeSwitch" Description="Node switch" Ext="/HW" Address="0" Direction="IN" Type="USINT" ChannelType="Node" Device="IF3" />
+    <Channel ID="IF3.TerminatingResistor" Description="Abschlusswiderstand" FromVersion="A4.32" Ext="/HW" Address="1" Direction="IN" Type="BOOL" ChannelType="Statistic" />
+  </Module>
+</ChannelConfiguration>

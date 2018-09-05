@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="AlarmSystems">
+    <Folder Name="AS1" TargetIndex="Source[global].AlarmGroup[AS1.AlarmGroup_1]">
+      <Folder Name="AlarmGroups">
+        <Folder Name="POBJ">
+          <Object Name="AlarmGroup_1" ClsId="0x109" Version="1" TargetIndex="1" Type="AG" RefString="Source[global].AlarmGroup[AS1.AlarmGroup_1]">
+            <Reference Name="GroupID" Type="AG">Source[global].AlarmGroup[AS1.AlarmGroup_1]</Reference>
+            <Reference Name="SystemID" Type="AS">Source[global].AlarmSystem[AS1]</Reference>
+            <UInt32 Name="Priority">1</UInt32>
+            <UInt32 Name="AlarmCount">2</UInt32>
+            <Reference Name="TextGroupID" Type="TG">Source[global].TextGroup[AG.AlarmGroup_1.AS1]</Reference>
+            <UInt32 Name="DefaultBackColor">15</UInt32>
+            <UInt32 Name="DefaultForeColor">0</UInt32>
+            <UInt32 Name="ActiveBackColor">4</UInt32>
+            <UInt32 Name="ActiveForeColor">0</UInt32>
+            <UInt32 Name="QuitBackColor">1</UInt32>
+            <UInt32 Name="QuitForeColor">0</UInt32>
+            <UInt32 Name="BypassBackColor">14</UInt32>
+            <UInt32 Name="BypassForeColor">0</UInt32>
+            <UInt32 Name="LatchedBackColor">2</UInt32>
+            <UInt32 Name="LatchedForeColor">0</UInt32>
+            <Reference Name="AlarmImage" Type="DP">Source[global].Variable[DataSource.Program1.alarm]</Reference>
+            <UInt32 Name="AcknowledgeImage">4294967295</UInt32>
+            <UInt32 Name="BypassImage">4294967295</UInt32>
+            <UInt32 Name="GroupAlarm">4294967295</UInt32>
+            <UInt32 Name="ImageOffset">0</UInt32>
+            <UInt32 Name="AlarmID">0</UInt32>
+            <UInt16 Name="Option">168</UInt16>
+            <UInt16 Name="Register">127</UInt16>
+            <UInt32 Name="AlarmID">1</UInt32>
+            <UInt16 Name="Option">168</UInt16>
+            <UInt16 Name="Register">127</UInt16>
+            <UInt32 Name="AlarmID">65535</UInt32>
+            <UInt16 Name="Option">168</UInt16>
+            <UInt16 Name="Register">127</UInt16>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="AG.AlarmGroup_1.AS1" TargetIndex="Source[global].TextGroup[AG.AlarmGroup_1.AS1]">
+      <Object Name="Embedded" ClsId="0x304" Version="1" Type="TG" RefString="Source[global].TextGroup[AG.AlarmGroup_1.AS1]">
+        <UInt32 Name="NumberOfTags">0</UInt32>
+        <UInt32 Name="NumberOfTexts">3</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">0</UInt32>
+            <UInt32 Name="TextIndex">21</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">1</UInt32>
+            <UInt32 Name="TextIndex">22</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">65535</UInt32>
+            <UInt32 Name="TextIndex">20</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[AG.AlarmGroup_1.AS1]" Type="TG" RefString="Source[global].TextGroup[AG.AlarmGroup_1.AS1].Language[en]">
+            <UInt32 Name="NumberOfTexts">3</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">20</UInt32>
+                <UInt32 Name="TextOffset">40</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">21</UInt32>
+                <UInt32 Name="TextOffset">42</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">22</UInt32>
+                <UInt32 Name="TextOffset">54</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">"00000"</String>
+              <String Name="Text" Encoding="Unicode">"1111"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[AG.AlarmGroup_1.AS1]" Type="TG" RefString="Source[global].TextGroup[AG.AlarmGroup_1.AS1].Language[de]">
+            <UInt32 Name="NumberOfTexts">3</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">20</UInt32>
+                <UInt32 Name="TextOffset">40</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">21</UInt32>
+                <UInt32 Name="TextOffset">42</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">22</UInt32>
+                <UInt32 Name="TextOffset">44</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

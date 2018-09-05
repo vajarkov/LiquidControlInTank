@@ -1,0 +1,10 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/projects/LiquidControlInTank/Physical/Config1/4PP065_0571_X74/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Master" Source="Modbus.Master.prg" />
+      <Task Name="Visu_1" Source="Visualisation.Visu_1.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

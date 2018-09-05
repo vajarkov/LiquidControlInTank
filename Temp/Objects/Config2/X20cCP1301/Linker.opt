@@ -1,0 +1,3 @@
+become	"$(AS_CPU_PATH)/become/Analog.c.o"  -o "$(AS_CPU_PATH)/become/a.out"  "-Wl,--version-script=$(AS_TEMP_PATH)/Archives/$(AS_CONFIGURATION)/$(AS_PLC)/libbecome.expmap"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf
+Program1	"$(AS_CPU_PATH)/Program1/Cyclic.c.o" "$(AS_CPU_PATH)/Program1/Init.c.o" "$(AS_CPU_PATH)/Program1/Exit.c.o" "$(AS_CPU_PATH)/Program1/_bur_pvdef.c.o"  -o "$(AS_CPU_PATH)/Program1/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf
+Visu_1	"$(AS_CPU_PATH)/Visu_1/Cyclic.c.o" "$(AS_CPU_PATH)/Visu_1/Init.c.o" "$(AS_CPU_PATH)/Visu_1/Exit.c.o" "$(AS_CPU_PATH)/Visu_1/_bur_pvdef.c.o"  -o "$(AS_CPU_PATH)/Visu_1/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs_brelf

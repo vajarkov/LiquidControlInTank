@@ -1,0 +1,8 @@
+VAR
+	valve_status : USINT;
+	valve_visible : USINT := 1; (*Переменная для отображения кнопок управления задвижкой*)
+	pump_status : USINT;
+	pump_visible : USINT := 1; (*Переменная для отображения кнопок управления насосом*)
+	switch_mode_pump : USINT;
+	switch_mode_valve : USINT;
+END_VAR

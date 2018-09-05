@@ -1,0 +1,7 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Master 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                 DRVmbus                              DRVmbus_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                EventPV5                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                LocalPV5                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                              ack_alarms                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

@@ -1,0 +1,17 @@
+VAR_CONFIG
+	::VALVE.feedback.raw AT %IW."X20AI4622".AnalogInput01;
+	::TANK.level.raw AT %IW."X20AI4622".AnalogInput02;
+	Cyclic#1.::ai_input_status AT %IB."X20AI4622".StatusInput01;
+	::PUMP.status_running AT %IX."X2".DigitalInput01;
+	::PUMP.status_remote AT %IX."X2".DigitalInput02;
+	::VALVE.status_remote AT %IX."X2".DigitalInput03;
+	::VALVE.status_local AT %IX."X2".DigitalInput04;
+	::VALVE.button_open AT %IX."X2".DigitalInput05;
+	::VALVE.button_close AT %IX."X2".DigitalInput06;
+	::VALVE.button_stop AT %IX."X2".DigitalInput07;
+	::PUMP.cmd_on AT %IX."X3".StatusDigitalOutput01;
+	::VALVE.signal_valve_opened AT %IX."X3".StatusDigitalOutput02;
+	::VALVE.signal_valve_closed AT %IX."X3".StatusDigitalOutput03;
+	::VALVE.cmd_valve_open AT %IX."X3".StatusDigitalOutput04;
+	::VALVE.cmd_valve_close AT %IX."X3".StatusDigitalOutput05;
+END_VAR

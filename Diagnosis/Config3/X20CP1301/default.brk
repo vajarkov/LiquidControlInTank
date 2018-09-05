@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<breakpoints>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Modbus/Slave/Main.c</file>
+    <position>73</position>
+    <condition></condition>
+    <instance></instance>
+    <program>Slave</program>
+  </breakpoint>
+</breakpoints>

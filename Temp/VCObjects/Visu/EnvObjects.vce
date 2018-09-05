@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.3.5.113 SP"?>
+<EnvironmentSettings xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Visual_Components_Frames>
+    <Property Name="SaveFrameLimit" Value="4"/>
+  </Visual_Components_Frames>
+  <StyleSheets/>
+  <VisualComponentOptions>
+    <Property Name="AllowTextClipboard" Value="1"/>
+    <Property Name="ExtGraphicEditor" Value="mspaint.exe"/>
+  </VisualComponentOptions>
+</EnvironmentSettings>

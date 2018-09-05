@@ -1,0 +1,8 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	pump_status_changed : BOOL;	(* #1"C:/Projects/LiquidControlInTank/Logical/Main_Program/Cyclic.c" #2"10" #3"13" *)
+	pump_prev_status : BOOL;	(* #1"C:/Projects/LiquidControlInTank/Logical/Main_Program/Cyclic.c" #2"10" #3"34" *)
+END_VAR

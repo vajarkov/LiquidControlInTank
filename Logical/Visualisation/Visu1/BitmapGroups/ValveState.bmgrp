@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.3.7.46 SP"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="ValveState">
+  <Property Name="Description" Value="Bitmap Group for Valves"/>
+  <Property Name="Index" Value="9"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="416" Value="Source[local].Bitmap[Valve_3D]"/>
+    <BitmapRef ID="426" Value="Source[local].Bitmap[Valve_Green_gradient]"/>
+    <BitmapRef ID="427" Value="Source[local].Bitmap[Valve_Red_gradient]"/>
+    <BitmapRef ID="430" Value="Source[local].Bitmap[Valve_Blue_gradient]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="416" Value="0"/>
+    <Index ID="426" Value="1"/>
+    <Index ID="427" Value="2"/>
+    <Index ID="430" Value="3"/>
+  </IndexMap>
+</BitmapGroup>

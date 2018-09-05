@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/become/become.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/become/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Main_Program/Cyclic.c
+$(AS_PROJECT_PATH)/Logical/Main_Program/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Modbus/Variables.var

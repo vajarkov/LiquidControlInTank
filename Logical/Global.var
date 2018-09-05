@@ -1,0 +1,38 @@
+(*Задвижка*)
+VAR
+	VALVE : Valve_typ;
+END_VAR
+(*Насос*)
+VAR
+	PUMP : Pump_typ;
+END_VAR
+(*Резервуар*)
+VAR
+	TANK : Tank_typ;
+END_VAR
+(*Аналоговые сигналы*)
+VAR
+	ai_input_status : USINT; (*Состояние аналоговых каналов*)
+END_VAR
+(*Примеры для аларма*)
+VAR
+	alarm : ARRAY[0..19] OF BOOL;
+	general_alarm : BOOL;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	timer_for_valve : UINT; (*Таймер для открытия задвижки *)
+	level_limits : Analog_Limits_typ; (*Технологические значения диапазонов уровня в резервуаре*)
+	cmd_pump_on : BOOL; (*Команда для запуска насоса в дистанционном режиме*)
+	cmd_pump_off : BOOL; (*Команда для останова насоса в дистанционном режиме*)
+	cmd_valve_open : BOOL; (*Команда для открытия задвижки в дистанционном режиме*)
+	cmd_valve_close : BOOL; (*Команда для закрытия задвижки в дистанционном режиме*)
+	cmd_valve_stop : BOOL; (*Команда для останова задвижки в дистанционном режиме*)
+	mode_remote_auto : BOOL; (*Режим дистанционный "Автомат"*)
+	mode_remote_manual : BOOL; (*Режим дистанционный "Ручной"*)
+	block_auto : BOOL; (*Блокировка кнопки "Автомат" на Touch - панели*)
+	block_manual : BOOL; (*Блокировка кнопки "Manual" на Touch - панели*)
+	block_valve_cmd : BOOL; (*Блокировка кнопок управления задвижкой в режиме "Дистанционный"*)
+	block_pump_cmd : BOOL; (*Блокировка кнопок управления насосом в режиме "Дистанционный"*)
+	ack_alarms : BOOL;
+END_VAR

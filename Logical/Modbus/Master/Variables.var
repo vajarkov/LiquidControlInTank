@@ -1,0 +1,7 @@
+VAR
+	Master : Master_typ;
+	Cmd_Write : BOOL; (* нопка записать параметры*)
+	mode : STRING[48] := '/PHY=RS232 /PA=N /DB=8 /SB=1 /BD=19200';
+	device : STRING[32] := 'SS1.IF1';
+	config : STRING[32] := 'datamod';
+END_VAR

@@ -1,0 +1,14 @@
+VAR RETAIN
+END_VAR
+VAR CONSTANT
+END_VAR
+VAR
+	blockRead : BOOL;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"11" #3"13" *)
+	j : USINT;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"13" #3"17" *)
+	i : USINT;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"13" #3"14" *)
+	adr : UDINT;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"12" #3"14" *)
+	firstInit : BOOL;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"11" #3"24" *)
+	openfailed : BOOL;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"10" #3"22" *)
+	fMaster : BOOL;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"10" #3"13" *)
+	ident : UDINT;	(* #1"C:/projects/LiquidControlInTank/Logical/Modbus/Master/Main.c" #2"9" #3"14" *)
+END_VAR

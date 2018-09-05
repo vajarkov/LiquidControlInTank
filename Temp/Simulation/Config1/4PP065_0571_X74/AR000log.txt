@@ -1,0 +1,74 @@
+
+
+Tue Aug 14 17:28:33 2018
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Tue Aug 14 17:28:33 2018
+COMMAND_COLDSTART
+InstanceName : 01d433c1ef4be460
+
+WorkingPath :
+C:\projects\LiquidControlInTank\Temp\Simulation\Config1\4PP065_0571_X74\
+
+
+
+Tue Aug 14 17:28:33 2018
+COMMAND_COLDSTART
+Version : E4.34
+
+
+
+Tue Aug 14 17:28:36 2018
+COMMAND_TERMINATE
+
+
+Tue Aug 14 17:28:36 2018
+
+
+Tue Aug 14 17:28:36 2018
+COMMAND_COLDSTART
+Version : E4.34
+
+
+
+Tue Aug 14 17:30:01 2018
+COMMAND_TERMINATE
+
+
+Tue Aug 14 17:30:01 2018
+
+
+Tue Aug 14 17:30:02 2018
+COMMAND_COLDSTART
+Version : E4.34
+
+
+
+Tue Aug 14 17:30:04 2018
+COMMAND_TERMINATE
+
+
+Tue Aug 14 17:30:04 2018
+
+
+Tue Aug 14 17:30:04 2018
+COMMAND_COLDSTART
+Version : E4.34
+
+
+
+Tue Aug 14 17:30:28 2018
+COMMAND_TERMINATE
+
+
+Tue Aug 14 17:30:29 2018
+
+
+Tue Aug 14 17:30:29 2018
+COMMAND_TERMINATE
+
+
+Tue Aug 14 17:30:29 2018

@@ -1,0 +1,43 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Main_Progr 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                         timer_for_valve                                     UINT    0 "                                                              60"    0    6    1   10    0    0         
+                                   alarm                              BOOL[0..19]    0 "                                                               *"    0    1   20    0    0    1         
+                                alarm[0]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[1]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[2]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[3]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[4]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[5]                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                alarm[6]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                alarm[7]                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    TANK                                 Tank_typ    0 "                                                               *"    0   24    1    0    0    0         
+                                   level                                Analog_FB    0 "                                                               *"    1   24    1    0    0    0         
+                                     raw                                      INT    0 "                                                               *"    2    3    1   10    0    0         
+                                   value                                     REAL    0 "                                                               *"    2    8    1   10    0    0         
+                        mode_remote_auto                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                    PUMP                                 Pump_typ    0 "                                                               *"    0   24    1    0    0    1         
+                          status_running                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                           status_remote                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                                  cmd_on                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                             button_stop                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   VALVE                                Valve_typ    0 "                                                               *"    0   24    1    0    0    1         
+                           status_remote                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                            status_local                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                             button_open                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                            button_close                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                             button_stop                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
+                     signal_valve_opened                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                     signal_valve_closed                                     BOOL    3 "                                                            TRUE"    1    1    1    2    0    0         
+                          cmd_valve_open                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                         cmd_valve_close                                     BOOL    3 "                                                           FALSE"    1    1    1    2    0    0         
+                                feedback                                Analog_FB    0 "                                                               *"    1   24    1    0    0    1         
+                                     raw                                      INT    1 "                                                               0"    2    3    1   10    0    0         
+                                  adc_up                                      INT    0 "                                                           32767"    2    3    1   10    0    0         
+                                  adc_dn                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                   value                                     REAL    0 "                                                             0.0"    2    8    1   10    0    0         
+                                  alarms                                     DINT    0 "                                                             120"    2    4    1   10    0    0 e,0,SIGN
+
+                         cmd_valve_close                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                          cmd_valve_open                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         
+                          cmd_valve_stop                                     BOOL    0 "                                                               *"    0    1    1    2    0    0         

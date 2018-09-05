@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="11" Type="REF" RefString="Source[local].BitmapGroup[Control_Mode]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Control_Mode" ClsId="0x308" Version="1" TargetIndex="11" Type="BMPG" RefString="Source[local].BitmapGroup[Control_Mode_en]">
+            <UInt32 Name="Count">3</UInt32>
+            <Group Name="Switch_local">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Switch_local]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Switch_remote">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Switch_remote]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Switch_Off">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Switch_Off]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="Control_Mode" ClsId="0x308" Version="1" TargetIndex="11" Type="BMPG" RefString="Source[local].BitmapGroup[Control_Mode_de]">
+            <UInt32 Name="Count">3</UInt32>
+            <Group Name="Switch_local">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Switch_local]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="Switch_remote">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Switch_remote]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="Switch_Off">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[Switch_Off]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

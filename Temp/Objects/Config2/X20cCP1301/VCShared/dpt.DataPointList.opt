@@ -1,0 +1,10 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Projects/LiquidControlInTank/Physical/Config2/X20cCP1301/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="Program1" Source="Program1.prg" />
+      <Task Name="Visu_1" Source="Visu_1.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

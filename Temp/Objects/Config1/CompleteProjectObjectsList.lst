@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.3.7.46 SP"?>
+<Objects>
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="131788060587088393" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131794871089448353"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131795645741764864"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="131786177183120813" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131717474300000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131717473840000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131717474000000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131717474140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131717474300000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131717473840000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131717474000000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131717474140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131717474260000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131717473800000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131717473960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131717474100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131717474200000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131717473740000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131717473900000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131717474040000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\asstring\Binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="131717474260000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="131717473800000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\asstring\asstring.typ"
+    LogicalPath="Libraries.asstring.asstring.typ"
+    Type="File"
+    LastWriteTime="131717473960000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\asstring\asstring.var"
+    LogicalPath="Libraries.asstring.asstring.var"
+    Type="File"
+    LastWriteTime="131717474100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsBrStr\Binary.lby"
+    LogicalPath="Libraries.AsBrStr"
+    Type="Library"
+    LastWriteTime="131717474180000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsBrStr\AsBrStr.fun"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.fun"
+    Type="File"
+    LastWriteTime="131717473720000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsBrStr\AsBrStr.typ"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.typ"
+    Type="File"
+    LastWriteTime="131717473880000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsBrStr\AsBrStr.var"
+    LogicalPath="Libraries.AsBrStr.AsBrStr.var"
+    Type="File"
+    LastWriteTime="131717474020000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DRV_mbus\Binary.lby"
+    LogicalPath="Libraries.DRV_mbus"
+    Type="Library"
+    LastWriteTime="131717474300000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DRV_mbus\DRV_mbus.fun"
+    LogicalPath="Libraries.DRV_mbus.DRV_mbus.fun"
+    Type="File"
+    LastWriteTime="131717473820000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DRV_mbus\DRV_mbus.typ"
+    LogicalPath="Libraries.DRV_mbus.DRV_mbus.typ"
+    Type="File"
+    LastWriteTime="131717473980000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DRV_mbus\DRV_mbus.var"
+    LogicalPath="Libraries.DRV_mbus.DRV_mbus.var"
+    Type="File"
+    LastWriteTime="131717474140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DataObj\Binary.lby"
+    LogicalPath="Libraries.DataObj"
+    Type="Library"
+    LastWriteTime="131717474280000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DataObj\DataObj.fun"
+    LogicalPath="Libraries.DataObj.DataObj.fun"
+    Type="File"
+    LastWriteTime="131717473820000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DataObj\DataObj.typ"
+    LogicalPath="Libraries.DataObj.DataObj.typ"
+    Type="File"
+    LastWriteTime="131717473980000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DataObj\DataObj.var"
+    LogicalPath="Libraries.DataObj.DataObj.var"
+    Type="File"
+    LastWriteTime="131717474120000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131717474320000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131717473840000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131717474000000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131717474160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\become\ANSIC.lby"
+    LogicalPath="Libraries.become"
+    Type="Library"
+    LastWriteTime="131781264080000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\become\Types.typ"
+    LogicalPath="Libraries.become.Types.typ"
+    Type="File"
+    LastWriteTime="131789636651377851"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\become\Constants.var"
+    LogicalPath="Libraries.become.Constants.var"
+    Type="File"
+    LastWriteTime="131781264080000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\become\become.fun"
+    LogicalPath="Libraries.become.become.fun"
+    Type="File"
+    LastWriteTime="131782870843193227"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\become\Analog.c"
+    LogicalPath="Libraries.become.Analog.c"
+    Type="File"
+    LastWriteTime="131789636545845567"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\dvframe\Binary.lby"
+    LogicalPath="Libraries.dvframe"
+    Type="Library"
+    LastWriteTime="131717474300000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\dvframe\dvframe.fun"
+    LogicalPath="Libraries.dvframe.dvframe.fun"
+    Type="File"
+    LastWriteTime="131717473820000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\dvframe\dvframe.typ"
+    LogicalPath="Libraries.dvframe.dvframe.typ"
+    Type="File"
+    LastWriteTime="131717473980000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\dvframe\dvframe.var"
+    LogicalPath="Libraries.dvframe.dvframe.var"
+    Type="File"
+    LastWriteTime="131717474140000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Main_Program\ANSIC.prg"
+    LogicalPath="Main_Program"
+    Type="Program"
+    LastWriteTime="131780269580000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Main_Program\Cyclic.c"
+    LogicalPath="Main_Program.Cyclic.c"
+    Type="File"
+    LastWriteTime="131796409944259783"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Main_Program\Init.c"
+    LogicalPath="Main_Program.Init.c"
+    Type="File"
+    LastWriteTime="131789602467866006"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Main_Program\Exit.c"
+    LogicalPath="Main_Program.Exit.c"
+    Type="File"
+    LastWriteTime="131780269580000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Main_Program\Types.typ"
+    LogicalPath="Main_Program.Types.typ"
+    Type="File"
+    LastWriteTime="131780269580000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Main_Program\Variables.var"
+    LogicalPath="Main_Program.Variables.var"
+    Type="File"
+    LastWriteTime="131789639056889863"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Package.pkg"
+    LogicalPath="Visualisation"
+    Type="Package"
+    LastWriteTime="131781836100000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu1\Vc.dob"
+    LogicalPath="Visualisation.Visu1"
+    Type="DataObject"
+    LastWriteTime="131781836080000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu1\VCObject.vc"
+    LogicalPath="Visualisation.Visu1.VCObject.vc"
+    Type="File"
+    LastWriteTime="131781836080000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu_1\ANSIC.prg"
+    LogicalPath="Visualisation.Visu_1"
+    Type="Program"
+    LastWriteTime="131781836100000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu_1\Cyclic.c"
+    LogicalPath="Visualisation.Visu_1.Cyclic.c"
+    Type="File"
+    LastWriteTime="131795645380617678"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu_1\Init.c"
+    LogicalPath="Visualisation.Visu_1.Init.c"
+    Type="File"
+    LastWriteTime="131781836100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu_1\Exit.c"
+    LogicalPath="Visualisation.Visu_1.Exit.c"
+    Type="File"
+    LastWriteTime="131781836100000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu_1\Types.typ"
+    LogicalPath="Visualisation.Visu_1.Types.typ"
+    Type="File"
+    LastWriteTime="131781836100000000"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Visualisation\Visu_1\Variables.var"
+    LogicalPath="Visualisation.Visu_1.Variables.var"
+    Type="File"
+    LastWriteTime="131795645456117357"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Package.pkg"
+    LogicalPath="Modbus"
+    Type="Package"
+    LastWriteTime="131788068437773994" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\datamod\Simple.dob"
+    LogicalPath="Modbus.datamod"
+    Type="DataObject"
+    LastWriteTime="131787207818425249" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\datamod\datamod.dat"
+    LogicalPath="Modbus.datamod.datamod.dat"
+    Type="File"
+    LastWriteTime="131795757138723017"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Types.typ"
+    LogicalPath="Modbus.Types.typ"
+    Type="File"
+    LastWriteTime="131795757230038778"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Variables.var"
+    LogicalPath="Modbus.Variables.var"
+    Type="File"
+    LastWriteTime="131792263042499002"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Master\ANSIC.prg"
+    LogicalPath="Modbus.Master"
+    Type="Program"
+    LastWriteTime="131787900431760322" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Master\Main.c"
+    LogicalPath="Modbus.Master.Main.c"
+    Type="File"
+    LastWriteTime="131795840819623405"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Master\Types.typ"
+    LogicalPath="Modbus.Master.Types.typ"
+    Type="File"
+    LastWriteTime="131788067175437154"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Master\Variables.var"
+    LogicalPath="Modbus.Master.Variables.var"
+    Type="File"
+    LastWriteTime="131795645580220263"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Slave\ANSIC.prg"
+    LogicalPath="Modbus.Slave"
+    Type="Program"
+    LastWriteTime="131786227048794751" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Slave\Main.c"
+    LogicalPath="Modbus.Slave.Main.c"
+    Type="File"
+    LastWriteTime="131795758676519987"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Slave\Types.typ"
+    LogicalPath="Modbus.Slave.Types.typ"
+    Type="File"
+    LastWriteTime="131788043875324161"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Modbus\Slave\Variables.var"
+    LogicalPath="Modbus.Slave.Variables.var"
+    Type="File"
+    LastWriteTime="131788066123039599"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration"
+    LastWriteTime="131780269580000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="131787881739041261"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="131780269580000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\Cpu.pkg"
+    LogicalPath="Config1.4PP065_0571_X74"
+    Type="Cpu"
+    LastWriteTime="131794021244594889" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\Cpu.sw"
+    LogicalPath="Config1.4PP065_0571_X74.Cpu.sw"
+    Type="File"
+    LastWriteTime="131787863781718025"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\Cpu.per"
+    LogicalPath="Config1.4PP065_0571_X74.Cpu.per"
+    Type="File"
+    LastWriteTime="131777621160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\IoMap.iom"
+    LogicalPath="Config1.4PP065_0571_X74.IoMap.iom"
+    Type="File"
+    LastWriteTime="131777621160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\PvMap.vvm"
+    LogicalPath="Config1.4PP065_0571_X74.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131777621160000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\Connectivity\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.Connectivity"
+    Type="Package"
+    LastWriteTime="131777621180000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="131777621740000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\TextSystem\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.TextSystem"
+    Type="Package"
+    LastWriteTime="131777621180000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\UnitSystem\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.UnitSystem"
+    Type="Package"
+    LastWriteTime="131777621180000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="131777621180000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131777621740000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131777621740000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131777621740000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="131777621740000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="131777622360000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="131777622560000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="131777622560000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="131777622360000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="131777622560000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="131777622360000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="131777622360000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="131777621740000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\4PP065_0571_X74\mapp\Package.pkg"
+    LogicalPath="Config1.4PP065_0571_X74.mapp"
+    Type="Package"
+    LastWriteTime="131777621180000000" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="131780269580000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Temp\Objects\Config1\4PP065_0571_X74\Master\MasterGlobal.typ"
+    LogicalPath="MasterGlobal.typ"
+    Type="File"
+    LastWriteTime="131796412901775067"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Temp\Objects\Config1\4PP065_0571_X74\Master\MasterGlobal.var"
+    LogicalPath="MasterGlobal.var"
+    Type="File"
+    LastWriteTime="131796412901653418"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Temp\Objects\Config1\4PP065_0571_X74\Master\MasterLocal.var"
+    LogicalPath="MasterLocal.var"
+    Type="File"
+    LastWriteTime="131796412901739161"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Temp\Objects\Config1\4PP065_0571_X74\Visu_1\Visu_1Global.typ"
+    LogicalPath="Visu_1Global.typ"
+    Type="File"
+    LastWriteTime="131796412903819094"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Temp\Objects\Config1\4PP065_0571_X74\Visu_1\Visu_1Global.var"
+    LogicalPath="Visu_1Global.var"
+    Type="File"
+    LastWriteTime="131796412903647217"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Temp\Objects\Config1\4PP065_0571_X74\Visu_1\Visu_1Local.var"
+    LogicalPath="Visu_1Local.var"
+    Type="File"
+    LastWriteTime="131796412903750934"
+    Private="true" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsBrStr\SG4\AsBrStr.h"
+    LogicalPath="AsBrStr.h"
+    Type="File"
+    LastWriteTime="131717474340000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="131717474360000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\asstring\SG4\asstring.h"
+    LogicalPath="asstring.h"
+    Type="File"
+    LastWriteTime="131717474420000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="131717474420000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\become\SG4\become.h"
+    LogicalPath="become.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DataObj\SG4\DataObj.h"
+    LogicalPath="DataObj.h"
+    Type="File"
+    LastWriteTime="131717474440000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\DRV_mbus\SG4\DRV_mbus.h"
+    LogicalPath="DRV_mbus.h"
+    Type="File"
+    LastWriteTime="131717474440000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\dvframe\SG4\dvframe.h"
+    LogicalPath="dvframe.h"
+    Type="File"
+    LastWriteTime="131717474460000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\operator\SG4\operator.h"
+    LogicalPath="operator.h"
+    Type="File"
+    LastWriteTime="131717474460000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\runtime\SG4\runtime.h"
+    LogicalPath="runtime.h"
+    Type="File"
+    LastWriteTime="131717474460000000"
+    Private="false" />
+  <Object
+    Path="C:\projects\LiquidControlInTank\Logical\Libraries\standard\SG4\standard.h"
+    LogicalPath="standard.h"
+    Type="File"
+    LastWriteTime="131717474460000000"
+    Private="false" />
+</Objects>

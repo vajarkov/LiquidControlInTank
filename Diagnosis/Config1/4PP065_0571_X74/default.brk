@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<breakpoints>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Modbus/Master/Main.c</file>
+    <position>143</position>
+    <condition></condition>
+    <instance></instance>
+    <program>Master</program>
+  </breakpoint>
+</breakpoints>

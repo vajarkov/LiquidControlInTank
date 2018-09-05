@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="4PP065.0571-X74">
+    <Parameter ID="HardwareModuleName" Value="4PP065_0571_X74" />
+    <Parameter ID="SimulationIPAddress" Value="127.0.0.1" />
+    <Parameter ID="SimulationInaPort" Value="11160" Type="UDINT" />
+    <Parameter ID="SimulationInaNodeNumber" Value="1" Type="UDINT" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="IF4.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="1000" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="on" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF5.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="SS1" Hardware="4PP065.IF23-1">
+    <Parameter ID="HardwareModuleName" Value="4PP065_IF23-1" />
+  </Module>
+  <Module ID="SS1.IF3.CANIO" Hardware="CANIO">
+    <Parameter ID="Timeout" Value="1000" Type="UDINT" />
+    <Parameter ID="Retries" Value="3" Type="UDINT" />
+    <Parameter ID="Mode" Value="CANIO" />
+  </Module>
+</IOCFG>

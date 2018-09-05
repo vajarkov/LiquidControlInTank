@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tracepoints>
+  <Tracepoint>
+    <Enabled>true</Enabled>
+    <File>Logical/Main_Program/Cyclic.c</File>
+    <Line>298</Line>
+    <Condition></Condition>
+    <Task>Main_Progr</Task>
+  </Tracepoint>
+</Tracepoints>

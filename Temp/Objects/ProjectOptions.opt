@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.3.7.46 SP"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Projects\LiquidControlInTank\Logical\"
+  TempDirectory="C:\Projects\LiquidControlInTank\Temp\"
+  AutomationStudioVersion="4.3.7.46 SP"
+  AutomationStudioEdition="Standard"
+  CrossReference="false"
+  ActiveConfiguration="Config3"
+  CreateAnsiCDeclarations="true" />

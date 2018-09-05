@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%ID.SerialNumber" Type="UDINT">
+<Prod Device="$root" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.ModuleID" Type="UINT">
+<Prod Device="$root" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%ID.PowerOnCycles" Type="UDINT">
+<Prod Device="$root" DPName="PowerOnCycles" Kind="io"/>
+</LN>
+<LN ID="%ID.OperatingHoursPP" Type="UDINT">
+<Prod Device="$root" DPName="OperatingHoursPP" Kind="io"/>
+</LN>
+<LN ID="%IB.BatteryStatusCPU" Type="USINT">
+<Prod Device="$root" DPName="BatteryStatusCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCPU" Type="UINT">
+<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureENV" Type="UINT">
+<Prod Device="$root" DPName="TemperatureENV" Kind="io"/>
+</LN>
+<LN ID="%ID.SystemTime" Type="DINT">
+<Prod Device="$root" DPName="SystemTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.CycleCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.CycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.BreakCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.BreakCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.Nettime" Type="DINT">
+<Prod Device="$root" DPName="IF4.Nettime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncSramErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncSramErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncBusyErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncBusyErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncNoRxErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncNoRxErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncFormatErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncFormatErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncPendingErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncPendingErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncSramErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncSramErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncBusyErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncBusyErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncNoRxErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncNoRxErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncFormatErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncFormatErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncPendingErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncPendingErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.DMALateOutputErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF4.DMALateOutputErrorCount" Kind="io"/>
+</LN>
+<LN ID="%IB.IF4.NrOfStationsMax" Type="USINT">
+<Prod Device="$root" DPName="IF4.NrOfStationsMax" Kind="io"/>
+</LN>
+<LN ID="%IB.IF4.NrOfStationsConfigured" Type="USINT">
+<Prod Device="$root" DPName="IF4.NrOfStationsConfigured" Kind="io"/>
+</LN>
+<LN ID="%IB.IF4.StationAtBusEnd" Type="USINT">
+<Prod Device="$root" DPName="IF4.StationAtBusEnd" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.StationAtBusEndChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF4.StationAtBusEndChangeTime" Kind="io"/>
+</LN>
+<LN ID="%IB.IF4.StationPastOutFrameError" Type="USINT">
+<Prod Device="$root" DPName="IF4.StationPastOutFrameError" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.StationPastOutFrameErrorChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF4.StationPastOutFrameErrorChangeTime" Kind="io"/>
+</LN>
+<LN ID="%IB.IF4.StationPastInFrameError" Type="USINT">
+<Prod Device="$root" DPName="IF4.StationPastInFrameError" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.StationPastInFrameErrorChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF4.StationPastInFrameErrorChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncInFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncInFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.SyncOutFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF4.SyncOutFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.AsyncFrameSpareSize" Type="DINT">
+<Prod Device="$root" DPName="IF4.AsyncFrameSpareSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF4.BusLengthConfigured" Type="DINT">
+<Prod Device="$root" DPName="IF4.BusLengthConfigured" Kind="io"/>
+</LN>
+<LN ID="%IB.IF5.NodeSwitch" Type="USINT">
+<Prod Device="$root" DPName="IF5.NodeSwitch" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.IF2.TerminatingResistor" Type="BOOL">
+<Prod Device="SS1" DPName="IF2.TerminatingResistor" Kind="io"/>
+</LN>
+<LN ID="%IB.SS1.IF3.NodeSwitch" Type="USINT">
+<Prod Device="SS1" DPName="IF3.NodeSwitch" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.IF3.TerminatingResistor" Type="BOOL">
+<Prod Device="SS1" DPName="IF3.TerminatingResistor" Kind="io"/>
+</LN>
+</Links></IO>

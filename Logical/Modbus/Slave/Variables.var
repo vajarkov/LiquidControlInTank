@@ -1,0 +1,7 @@
+VAR
+	mode : STRING[48];
+	device : STRING[32];
+	SOpen : MBSOpen;
+	Slave : MBSlave;
+	SClose : MBSClose;
+END_VAR

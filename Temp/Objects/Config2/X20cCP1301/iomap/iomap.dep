@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/logical/libraries/become/become.fun
+$(AS_PROJECT_PATH)/logical/global.var
+$(AS_PROJECT_PATH)/logical/global.typ

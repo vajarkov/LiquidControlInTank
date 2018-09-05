@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Switch_remote" ClsId="0x306" Version="1" TargetIndex="90" Type="GFX" RefString="Source[local].Bitmap[Switch_remote]">
+        <UInt16 Name="Width">70</UInt16>
+        <UInt16 Name="Height">25</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urqQDw8PDw+6ZQ9lurplD2W6kDsPDw87Dw8PDw8PD2W6kA/7urq6+vq6uro7+7q6urq6urq6urq6urq6urq6urq6urq6urq6kA+QumUPumUPZbqQ/A9lkPv7kLqQ+2W6ug9lurq6umX7D5C6uvr6urq6O/u6urq6urq6urq6urq6urq6urq6urq6urq6upAPkLplD7plD2W6ZfoPZWUPkLq6urq6uroPZbq6urr7Zfs7urr6+rq6ujv7urq6urq6urq6urq6urq6urq6urq6urq6urpl/Lq6ZQ+6ZQ9lkPxlD2U7+7q6urq6urq6D2W6urqQD5A7+7q6+vq6uro7+7q6urq6urq6urq6urq6urq6urq6urq6urq6O/q6umUPumUPZWU7kA9l+vq6urq6urq6ug9lurq6Zfu6ZQ+QuvoPDw8PD/u6urq6urq6urq6urq6urq6urq6urq6urq6uvtlurplD7plD2X8kJAPZTv7urq6urq6uroPZbq6uvtlurr8O7r6+rq6ujv7urq6urq6urq6urq6urq6urq6urq6urq6upAPkLq6ZQ+6ZQ/7ZbqQD2VlD5C6urq6urq6D2W6upAPDw8PD/u6+vq6uro7+7q6urq6urq6urq6urq6urq6urq6urq6urpl+rq6umUPumUP/JC6kA9lkPv7kLqQ+2W6ug9lurpl+7q6umUPkPr6urq6O/u6urq6urq6urq6urq6urq6urq6urq6urplDw8PDw8PD/plD2W6upAPZbqQOw8PDzuQuroPZbq6+zu6urq6/Dv6+rq6ujv7urq6urq6urq6urq6urq6urq6urq6urq6ZQ+6urq6umX6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6umUPurq6urpl+rq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6ug==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

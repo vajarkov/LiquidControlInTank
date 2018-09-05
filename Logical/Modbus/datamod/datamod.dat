@@ -1,0 +1,23 @@
+"DRVmbus.EventPV4", 03, $01, "DRVmbus.LocalPV4", 0000, 0002
+"DRVmbus.EventPV41", 03, $01, "DRVmbus.LocalPV41", 0002, 0009
+"DRVmbus.EventPV16", 16, $01, "DRVmbus.LocalPV16", 0002, 0009
+"DRVmbus.EventPV1", 01, $01, "DRVmbus.LocalPV1", 0000, 0021
+"DRVmbus.EventPV50", 05, $01, "DRVmbus.LocalPV50", 0021, 0001
+"DRVmbus.EventPV51", 05, $01, "DRVmbus.LocalPV51", 0022, 0001
+"DRVmbus.EventPV52", 05, $01, "DRVmbus.LocalPV52", 0023, 0001
+"DRVmbus.EventPV53", 05, $01, "DRVmbus.LocalPV53", 0024, 0001
+"DRVmbus.EventPV54", 05, $01, "DRVmbus.LocalPV54", 0025, 0001
+"DRVmbus.EventPV55", 05, $01, "DRVmbus.LocalPV55", 0026, 0001
+"DRVmbus.EventPV56", 05, $01, "DRVmbus.LocalPV56", 0027, 0001
+"DRVmbus.EventPV5",  5, $01,  "DRVmbus.LocalPV5", 0028, 0001
+
+;"LibDRVmbus.EventPV4            ", 16, $01, "LibDRVmbus.LocalPV4            ", 0000, 0003
+;"LibDRVmbus.EventPV3            ", 03, $01, "LibDRVmbus.LocalPV3            ", 0000, 0003
+; \_____________________________/	|    |    \_____________________________/    |      |
+;			 	 |					|    |				  	 |				     |      |
+;		   31 Characters		    |    |			   31 Characters  		     |      |_Number of coils or registers
+;			 						|    |				   						 |_Offset of the Modbus Variables
+;									|    |
+;									|    |_Target Address of the slave station
+;			 						|
+;			 						|_ Modbus function

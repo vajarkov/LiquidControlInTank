@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Pipe_60degree_angle1" ClsId="0x306" Version="1" TargetIndex="72" Type="GFX" RefString="Source[local].Bitmap[Pipe_60degree_angle1]">
+        <UInt16 Name="Width">50</UInt16>
+        <UInt16 Name="Height">39</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">1</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">255</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">//////////////////////+R//////////////////////////////////////////////////////////////9mkff2////////////////////////////////////////////////////////////B2aKkfb/////////////////////////////////////////////////////////+jtlZmaRkfb//////////////////////////////////////////////////////Pv6OjtgZmaR9vf//////////////////////////////////////////////////Pz8/Ps7O2AHZ5GRtv////////////////////////////////////////////////v8/Pz7+/o6OwdmZpGR9////////////////////////////////////////////zs6O/v8/Pz7+/o7ZWBmkZH2/////////////////////////////////////////2ZmYGD6+/v8/Pz8+l87B2Zmkff2//////////////////////////////////////+RbGYHO1/6+/v8/Pv7+jtfB2aKkfb////////////////////////////////////29pGRZ2YHOzv7+/z8/Pv7+mVgZmaRkfb////////////////////////////////////295GKZgdgX/r7/Pz8/Pv6O2AHZmeR9/f////////////////////////////////////295FnZgc7O/r7+/z7+/v6+mBmZpGR9v///////////////////////////////////8L2kYpmZmA6+vv7/Pz8+/o7OwdmZpH39v///////////////////////////////////7b3kWxmYGA7+vv7/Pz7+/o6YGZmbJH2////////////////////////////////////9vaRkWdmYF/6+/v8/Pz7+zs7B2aKkZH2////////////////////////////////////tvaRZ2ZgZTv6+/v8/Pv6+l87YGZmkZH3kf/////////////////////////////////39pGRZmZgO/r7+/z8/Pv6+mVgB2aKkZH3kf/////////////////////////////////295FsZgdg+l/7/Pz8/Pv6+vpgB2ZmkZGRkZGRkZGRkZGR////kf////////////////+295FnZgc7+vr7/Pz8+/v6OzpgYAdmZpGRkZGRkZGRkZGRkZGRkZGRkZGRkf////////b2kYpmZmA7+vv8/Pz8+/v6+vpfYGBmZmZnimeKZ4pnimeKZ2ZnimZnimdm//////////b3kWdmBztf+/v8/Pz8+/v6+vo6YEFgB2YHZmZmB2YHZgdmZgdmB2ZmZmb/////////9/aRkWZmYPpf+/v8/Pz8/Pv7+vr6Ozo7O2VgO2U7YEFgO2A7ZTtgO2VgO///////////tveRZmYHO/r6+/z8/Pz8/Pv7+/v7+vr6+vr6+vr6+vr6+vr6+vr6+vr6////////////9pGRZ2ZgYPr7+/v8/Pz8/Pz8+/v7+/v7+vv7+/v7+/v7+vv7+vv6+/v////////////295FnZgdfO/r7+/v8/Pz8/Pv8+/z8+/z8/Pz8+/z7/Pz8/Pv8/Pz8/P/////////////295GKZgdlO/r7/Pz8/Pz8/Pz8/Pv8/Pv8/Pv8/Pz8/Pz8/Pz8+/z8///////////////2kZFmZmA7X/r7+/z8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz7/Pz8/Pz8/Pz//////////////5H3kZFnZgc7O/r7+/z8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/P///////////////5H3kZFmZgdfO/r7+/z8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/////////////////5H3kZGKZgdlO1/7+/z8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz///////////////////+RkZGKZ2ZgOzv6+vv8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/P/////////////////////3kZGRZmZmBzs7+vr7/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8//////////////////////+RkZGRZ2ZmB2BlO/r6+vv6+/v7+vv7+vv7+vv7+vv7+vv/////////////////////////kZGRkWyKZmAHYAc7YDo7OztfOztfOztfOztfOzs7+v///////////////////////////5GRkYpskWZmZmYHZmBmBwdmBwdmBwdmBwdmB2YH//////////////////////////////+RkZGKkWeRZ2eKZmaKZmeKZ2ZnZmZnZmZnZmb//////////////////////////////////5GRkZFsipGRbJGRbIqRkWyRkWyRkWyKZ////////////////////////////////////////5GRkZGRkZGRkZGRkZGRkZGRkZH/</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

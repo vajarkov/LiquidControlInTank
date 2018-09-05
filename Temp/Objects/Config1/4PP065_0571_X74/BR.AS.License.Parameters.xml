@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /SDT=5 /DAIP=192.168.1.10 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\projects\LiquidControlInTank\LiquidControlOfTank.apj</ApjFullFileName>
+    <ProjectName>LiquidControlOfTank</ProjectName>
+    <ActiveConfigurationName>Config1</ActiveConfigurationName>
+    <LicenseDataFolder>C:\projects\LiquidControlInTank\Temp\Objects\Config1\4PP065_0571_X74</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

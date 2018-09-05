@@ -1,0 +1,41 @@
+
+
+Wed Aug 08 10:51:53 2018
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Wed Aug 08 10:51:53 2018
+COMMAND_COLDSTART
+InstanceName : 01d42ed3867ea190
+
+WorkingPath :
+C:\Projects\LiquidControlInTank\Temp\Simulation\Config2\X20cCP1301\
+
+
+
+Wed Aug 08 10:51:53 2018
+COMMAND_COLDSTART
+Version : E4.34
+
+
+
+Wed Aug 08 10:51:55 2018
+COMMAND_TERMINATE
+
+
+Wed Aug 08 10:51:55 2018
+
+
+Wed Aug 08 10:51:56 2018
+COMMAND_COLDSTART
+Version : E4.34
+
+
+
+Wed Aug 08 10:52:38 2018
+COMMAND_TERMINATE
+
+
+Wed Aug 08 10:52:39 2018

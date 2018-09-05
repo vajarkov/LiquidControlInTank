@@ -1,0 +1,1 @@
+become	"$(AS_CPU_PATH)/become/Analog.c.o"  -o "$(AS_STATIC_ARCHIVES_PATH)/libbecome_s.a"  -G V4.1.2  -T SG4  -M IA32 
